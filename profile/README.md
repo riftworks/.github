@@ -34,6 +34,17 @@ Born from @johanmontorfano's thesis *“Proposition of New Ethical Procedures of
 
 *Our full thesis outlines a prototype-ready model using privacy-preserving computation, user-side wallets, and blockchain-based auditability.*
 
+## Roadmap
+
+- [ ] Creating a Web5 system (Rift)
+    > [!WARNING]
+    > This Web5 system is inspired by TBD's guidelines, but goes far beyond it. For
+    > this project, those guidelines and their execution are considered obsolete.
+    - [ ] DWNs
+    - [ ] DNS DID
+    - [ ] SDK
+- [ ] Adding a data-centric app to prove efficiency and make data profitable.
+
 ## 📫 Connect
 
 - Full Thesis PDF: *Available upon request*
