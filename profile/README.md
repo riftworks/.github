@@ -1,56 +1,59 @@
-# What is CommonRift?
+# CommonRift
 
-**CommonRift** is a research-driven protocol and prototype exploring how to realign data collection with ethics, ownership, and emerging privacy technologies.  
+**CommonRift** is a protocol and research initiative dedicated to rethinking how identity and data are managed online in a hyper-decentralized way.  
+It builds on academic researches and aims to provide a decentralized substrate where individuals retain verifiable control over the data they generate.
 
-Born from @johanmontorfano's thesis *“Proposition of New Ethical Procedures of Data Harvesting”*, the project investigates and proposes decentralized, consent-based infrastructures where **individuals retain full ownership over the data they generate**.
+## Principles
 
-### 🎯 Our Mission
+**Identity-Centric**  
+Every interaction is bound to a cryptographic peer identity. Ownership of data and services is enforced at the protocol level, with mechanisms designed to extend into decentralized identifiers (DIDs).  
 
-- Protect individuals from unauthorized data use
-- Make data **transparent, traceable**, and **revocable**
-- Enable **ethical monetization** of data with informed consent
-- Replace opaque data economies with **distributed trust architectures**
+**Local-First Storage**  
+Applications operate on local AppSpaces that are owned by the user. Data is stored under the user’s control and only shared with explicit, verifiable consent.  
 
-## 🧠 Core Principles
+**Transparent Protocols**  
+All communication occurs over auditable, open protocols built on libp2p. Request/response flows are visible to the participant, eliminating opaque data transfers.  
 
-| Principle               | Description |
-|------------------------|-------------|
-| **Ownership**         | Every dataset remains traceable to the individual who generated it. Ownership is enforced through cryptographic identity and smart contracts. |
-| **Transparency**      | Data flows are auditable. Access and valuation processes are openly verifiable on-chain. |
-| **Privacy by Design** | Utilizes T-Level identity alteration, zero-knowledge proofs, and k-anonymity mechanisms. |
-| **Ethical Economy**   | Value is redistributed. A marketplace model ensures **consent-based access** and **fair compensation**. |
-| **Dynamic Consent**   | Individuals can retract consent over future data usage, even post-monetization. |
+**Privacy as Default**  
+Data exchanges are designed to minimize leakage. AppSpaces apply privacy-preserving techniques (e.g., anonymization, selective disclosure) before data ever leaves the node.  
 
-## 🧪 Research-Backed Insights
+**Consent and Revocability**  
+Consent is not a one-time agreement. Users can authorize, restrict, or revoke access to their AppSpaces dynamically, ensuring long-term control.  
 
-📊 **788 survey respondents** (general users):  
-> 85% believe their online activity is unprotected  
-> 60% would switch products for better privacy  
-> 90% feel uninformed about what companies do with their data  
+**Modularity**  
+CommonRift provides a substrate of composable behaviours (RPC, discovery, identity, storage). Developers can extend it with new protocols without altering the foundation.  
 
-👨‍💻 **1500 developers & tech professionals**:  
-> 70% are likely to adopt ethical SaaS alternatives  
-> 75% are willing to switch for better data control with API compatibility  
+## Research Foundations
 
-*Our full thesis outlines a prototype-ready model using privacy-preserving computation, user-side wallets, and blockchain-based auditability.*
+Surveys conducted among both end-users and technical professionals highlight the demand for stronger guarantees:
+
+- **General users (788 respondents):**  
+  - 85% perceive their online activity as unprotected  
+  - 60% would change products for stronger privacy safeguards  
+  - 90% lack clarity on how their data is used  
+
+- **Developers and technology professionals (1,500 respondents):**  
+  - 70% are open to adopting ethically aligned SaaS solutions  
+  - 75% would switch platforms if stronger data control was provided without breaking API compatibility  
+
+These findings validate the need for consent-based infrastructures and reinforce the feasibility of adoption.
 
 ## Roadmap
 
-- [ ] Creating a Web5 system (Rift)
-    > [!WARNING]
-    > This Web5 system is inspired by TBD's guidelines, but goes far beyond it. For
-    > this project, those guidelines and their execution are considered obsolete.
-    - [ ] DWNs
-    - [ ] DNS DID
-    - [ ] SDK
-- [ ] Adding a data-centric app to prove efficiency and make data profitable.
+1. **Development of a Web5-inspired system (Rift)**  
+   *Note: This design extends beyond TBD’s Web5 guidelines, which are considered insufficient for this project’s objectives.*
 
-## 📫 Connect
+2. **Prototype data-centric application**  
+   - Demonstrates efficiency of the model 
 
-- Full Thesis PDF: *Available upon request*
-- Website: *coming soon*
-- For researchers: Open to collaborations in blockchain, privacy, and ethics
+---
 
+## License and Governance
 
-> This project operates under a **Commons-Oriented License** (COLv1, draft) — for ethical use only. Commercial reuse requires individual data owner consent.
+CommonRift operates under the **Commons-Oriented License (COLv1, draft)**.  
+Use is restricted to ethical applications. Commercial reuse requires explicit, informed consent from the individuals whose data is involved.
+## Contact
 
+- Full thesis available on request  
+- Website under development  
+- Collaboration open to researchers and practitioners in blockchain, privacy engineering, and data ethics
